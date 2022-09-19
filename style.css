@@ -230,7 +230,7 @@ p {
 /* top-banner */
 .top-banner {
     width: 100%;
-    background: url('../photos/bg1.jpg') no-repeat center;
+    background: url('./bg1.jpg') no-repeat center;
     background-size: cover;
     padding: 9.375rem 0 9.375rem;
 
@@ -292,7 +292,7 @@ p {
  .story-section{
     width:100%;
     height:28.125rem;
-    background: url('../photos/bg2.avif')no-repeat center;
+    background: url('./bg2.avif')no-repeat center;
     background-size: cover;
     padding-top:100px;
     text-align: center;
@@ -376,7 +376,7 @@ p {
   /* book food section*/
   .book-food{
     width:100%;
-    background:url('../photos/bg3.avif') no-repeat center;
+    background:url('./bg3.avif') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-position:0 71.9125px;
