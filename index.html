@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>foodies</title>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Own css    -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive-style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-wrap">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-2x fa-burger"></i>
+          <div>foodie</div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore-food">Explore Foods</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <button class="btn main-btn" type="button">+(105) 2344 523</button>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- section 1 top banner -->
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-5 col-md-6 col-sm-7 col-8">
+            <h1>Good food is the foundation of genuine happiness.</h1>
+            <p>If you really want to make a friend, go to someone's house and eat with him...the people who give you
+              their food give you their heart.</p>
+            <div class="mt-4">
+              <button class="main-btn">Order now <i class="fa-solid fa-basket-shopping"></i></button>
+              <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order now <i class="fa-regular fa-bookmark"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 2 count -->
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6">
+            <h2>
+              <span id="count1"></span>+
+            </h2>
+            <p>PHOTOS</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h2>
+              <span id="count2"></span>+
+            </h2>
+            <p>SAVING</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h2>
+              <span id="count3"></span>+
+            </h2>
+            <p>ROCKET</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h2>
+              <span id="count4"></span>+
+            </h2>
+            <p>GLOBLES</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- section 3 about -->
+  <section class="about">
+    <div class="about-section wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img src="photos/img1.avif" class="img-fluid" alt="Reload">
+            </div>
+          </div>
+          <div class="col-lg-5 text-sec">
+            <h2>We pride ourselves on making real food from the best ingredients.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
+              amet leo. Mauris feugiat erat tellus.</p>
+            <button class="main-btn mt-4">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <!-- food type -->
+      <div class="container food-type">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+            <h2>We make everything by hand with the best possible ingredients.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
+              amet leo. Mauris feugiat erat tellus.Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.</p>
+            <ul class="list-unstyled py-3">
+              <li>Etiam sed dolor ac diam volutpat.</li>
+              <li>Erat volutpat aliquet imperdiet.</li>
+              <li>purus a odio finibus bibendum.</li>
+            </ul>
+            <button class="main-btn mt-4">Learn More</button>
+          </div>
+          <div class="col-lg-7">
+            <div class="card border-0">
+              <img src="photos/img2.jpg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- section-3 story-->
+  <section id="story">
+    <div class="story-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-content">
+              <h2>When a man's stomach is full it makes no
+                difference whether he is rich or poor.</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
+                finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+              <button class="main-btn mt-3">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-4 explore food-->
+  <section id="explore-food">
+    <div class="explore-food wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-content text-center">
+              <h2>Explore Our Foods</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
+                amet leo. Mauris feugiat erat tellus. Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card text-center">
+              <img src="photos/img3.avif" class="img-fluid">
+              <div class="pt-3">
+                <h4>Rainbow Vegetable Sandwich</h4>
+                <p>Time: 15 - 20 Minutes | Serves: 1</p>
+                <span>$10.50 <del>$11.70</del></span>
+                <button class="mt-4 main-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card text-center">
+              <img src="photos/img4.avif" class="img-fluid">
+              <div class="pt-3">
+                <h4>Vegetarian Burger</h4>
+                <p>Time: 30 - 45 Minutes | Serves: 1</p>
+                <span>$9.20<del>$10.50</del></span>
+                <button class="mt-4 main-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card text-center">
+              <img src="photos/img5.avif" class="img-fluid">
+              <div class="pt-3">
+                <h4>Raspberry Stuffed French Toast</h4>
+                <p>Time: 10 - 15 Minutes | Serves: 1</p>
+                <span>$12.50<del>$13.20</del></span>
+                <button class="mt-4 main-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 5 testimonial  -->
+  <section id="testimonial">
+    <div class="wrapper testimonial-section">
+      <div class="container text-center">
+        <div class="text-center pb-4">
+          <h2>Testimonial</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-10 offset-lg-1">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption">
+                    <img src="photos/test1.png">
+                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                      live the blind texts. "</p>
+                    <h5>Mr. Champa Ram</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="photos/test2.jpg">
+                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                      live the blind texts. "</p>
+                    <h5>Mr. Narendra Modi</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="photos/test3.jpg">
+                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                      live the blind texts. "</p>
+                    <h5>Lord Shiv Shankar</h5>
+                  </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-6 faq-->
+  <section id="faq">
+    <div class="faq wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center pb-4">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-sm-6 mb-4">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg> Is Foodies Bread really baked fresh each day?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg> Do you bake breads containing animal fats or products?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg> Can I order your products online?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg> When are you opening a shop near me?</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- section-7 book-food-->
+   <section id="book-food">
+    <div class="book-food">
+      <div class="container book-food-text">
+        <div class="row text-center">
+          <div class="col-lg-9 col-md-12">
+           <h2>Baked fresh daily by bakers with passion.</h2>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+            <button class="main-btn">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- section-8 newslettar-->
+<section id="newslettar">
+  <div class="newslettar wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-content text-center pb-4">
+           <h2>Hurry up! Subscribe our newsletter
+             and get 25% Off</h2>
+           <p>Limited time offer for this month. No credit card required. </p>
+          </div>
+          <form class="newsletter">
+            <div class="row">
+              <div class="col-md-9 col-12">
+                <input class="form-control" placeholder="Email Address here" name="email" type="email">
+              </div>
+              <div class="col-md-3 col-12 mt-md-0 mt-4">
+                <button class="main-btn" type="submit">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- section-9 footer-->
+  <footer id="footer">
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a class="footer-link" href="#">Register</a>
+            <a class="footer-link" href="#">Forum</a>
+            <a class="footer-link" href="#">Affiliate</a>
+            <a class="footer-link" href="#">FAQ</a>
+            <div class="footer-social pt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">© 2021. Foodies. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- js libraries -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ee0eabc23c.js" crossorigin="anonymous"></script>
+  <!-- Own js -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
